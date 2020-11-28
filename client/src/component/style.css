@@ -2,3 +2,8 @@
   background-color: aliceblue;
   border-radius: 20px;
 }
+
+.home {
+  size: 100%;
+  margin-bottom: 0rem;
+}

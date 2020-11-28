@@ -1,23 +1,24 @@
 import React from 'react';
-import { Jumbotron, Button, CardFooter  } from 'reactstrap';
+import { Jumbotron, Button } from 'reactstrap';
 import "./style.css"
-import Card from "./Card"
-
-
 
 
 const Example = (props) => {
   return (
     <div>
-      <Jumbotron>
-        <h1 className="display-3">Hello, world!</h1>
-        <p className="lead">This is a simple hero unit, a simple Jumbotron-style component for calling extra attention to featured content or information.</p>
+      <Jumbotron className="home">
+        <h1 className="display-3">Giovanna Arizpe</h1>
+        <p className="lead">About Me</p>
         <hr className="my-2" />
-        <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+        <p>I am a Full Stack developer with tax provision implementation knowledge educated at University of Florida, Loyola University of Chicago, and Northwestern University. My skills range from HTML, CSS, JavaScript, Node.js, MySQL, MongoDB, React to ERM systems and Tax Provision and compliance software with strengths in problem solving, creativity, and teamwork.<br/><br/>
+
+        I am passionate about learning new technologies and applying skills to improve overall efficiencies of projects and sharing information with others. I enjoy not only showing clients how technology works, but ensure to take the extra time to troubleshoot and demonstate clients how I reached a solution so they can better maintain their software environment. I strive to enhance processes and created not only company guidelines on how to update software, but also created company instructional guides for clients to use on tax software. Moreover, I implemented proofs for Tax Analytics applications and created several applications based on the company's code library. <br/><br/>
+
+         I am excited to develop responsive websites and am positioned to provide unique perspectives on how end users interact with websites and software platforms by leveraging my background in professional services in a Tax Provision software company.</p>
         <p className="lead">
-          <Button color="primary">Learn More</Button>
+          <Button color="primary" href="/portfolio">Learn More</Button>
         </p>
-        <Card />
+        
       </Jumbotron>
       
       

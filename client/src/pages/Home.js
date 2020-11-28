@@ -1,6 +1,6 @@
 import React from "react";
-
-
+import Jumbotron from "../component/Jumbotron"
+import Container from '@material-ui/core/Container';
 
 
 
@@ -8,7 +8,10 @@ function Home() {
   return (
     <div>
     
-    <p>home</p>
+    <Container maxWidth="sm">
+    <Jumbotron>
+    </Jumbotron>
+    </Container>
       
 
     </div>

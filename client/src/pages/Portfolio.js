@@ -1,5 +1,6 @@
 import React from "react";
-
+import Card from "../component/Card"
+import { Jumbotron, } from 'reactstrap';
 
 
 
@@ -7,8 +8,11 @@ import React from "react";
 function Portfolio() {
   return (
     <div>
+        <Jumbotron>
+            <Card/>
+        </Jumbotron>
         
-   <p>test</p>
+   
       
 
     </div>
