@@ -22,7 +22,7 @@ const Example= (props) => {
   return (
     <div>
       <Navbar color="light" light expand="md">
-        <NavbarBrand href="/">reactstrap</NavbarBrand>
+        <NavbarBrand href="/">Giovanna Arizpe</NavbarBrand>
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
           <Nav className="mr-auto" navbar>
@@ -38,19 +38,24 @@ const Example= (props) => {
               </DropdownToggle>
               <DropdownMenu right>
                 <DropdownItem>
-                  Option 1
+                  About Me 
                 </DropdownItem>
                 <DropdownItem>
-                  Option 2
+                  Portfolio
                 </DropdownItem>
-                <DropdownItem divider />
                 <DropdownItem>
-                  Reset
+                  Socials
+                </DropdownItem>
+                <DropdownItem>
+                  GitHub
+                </DropdownItem>    
+                <DropdownItem>
+                  LinkedIn
                 </DropdownItem>
               </DropdownMenu>
             </UncontrolledDropdown>
           </Nav>
-          <NavbarText>Simple Text</NavbarText>
+          <NavbarText>c</NavbarText>
         </Collapse>
       </Navbar>
     </div>

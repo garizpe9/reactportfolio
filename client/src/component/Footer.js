@@ -1,9 +1,7 @@
 import React from 'react'
 import {CardFooter  } from 'reactstrap';
-
 import { faFilePdf,faFolderOpen,faEnvelopeOpen,faCopyright} from '@fortawesome/free-solid-svg-icons'
 import {faLinkedin, faGithub} from '@fortawesome/free-brands-svg-icons';
-
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 
