@@ -17,7 +17,7 @@ const Example = (props) => {
 
          I am excited to develop responsive websites and am positioned to provide unique perspectives on how end users interact with websites and software platforms by leveraging my background in professional services in a Tax Provision software company.</p>
         <p className="lead">
-          <Button color="primary" href="/portfolio">Learn More</Button>
+          <Button color="primary" href="/portfolio" size="lg">Learn More</Button>
         </p>
         
       </Jumbotron>

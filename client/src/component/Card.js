@@ -1,4 +1,5 @@
 import React from 'react';
+import { Button } from 'reactstrap';
 import ProjectOne from "./projects/ProjectOne"
 import ProjectTwo from "./projects/ProjectTwo"
 import ProjectThree from "./projects/ProjectThree"
@@ -20,6 +21,11 @@ const Cardcomp = (props) => {
       <ProjectSix/> <br/>
       <ProjectSeven/> <br/>
       <ProjectEight/> <br/>
+
+      <p className="lead">
+
+          <Button color="primary" href="/contact" size="lg"><b> Contact Me</b></Button>
+        </p>
     </div>
   );
 };
