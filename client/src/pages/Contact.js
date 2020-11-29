@@ -4,19 +4,17 @@ import Container from '@material-ui/core/Container';
 
 
 
+
 function Home() {
   return (
     <div>
-    
-    <Container maxWidth="lg">
+    <Container maxWidth="sm">
     <Jumbotron>
+
     </Jumbotron>
     </Container>
-      
-
     </div>
   );
 }
-
 
 export default Home;
