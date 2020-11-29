@@ -9,12 +9,12 @@ export const Footertest = () => {
     return(
 <div>
     <CardFooter>
-    <FontAwesomeIcon icon={faFilePdf} size="2x" />
-    <FontAwesomeIcon icon={faEnvelopeOpen} size="2x" />
-    <FontAwesomeIcon icon={faFolderOpen} size="2x" />
-    <FontAwesomeIcon icon={faCopyright} size="2x" />
-    <FontAwesomeIcon icon={faLinkedin} size="2x" />
-    <FontAwesomeIcon icon={faGithub} size="2x" />
+    <FontAwesomeIcon icon={faFilePdf}/>  
+    <FontAwesomeIcon icon={faEnvelopeOpen}  />  
+    <FontAwesomeIcon icon={faFolderOpen} />  
+    <FontAwesomeIcon icon={faCopyright} />  
+    <FontAwesomeIcon icon={faLinkedin}  />  
+    <FontAwesomeIcon icon={faGithub} />  
     </CardFooter>
   </div>
     );
