@@ -39,7 +39,7 @@ const Example= (props) => {
               <NavLink href="https://github.com/garizpe9" ><FontAwesomeIcon icon={faGithub}  /></NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="/" ><FontAwesomeIcon icon={faFilePdf}  /></NavLink>
+              <NavLink href="/contact" ><FontAwesomeIcon icon={faFilePdf}  /></NavLink>
             </NavItem>
             <UncontrolledDropdown nav inNavbar>
               <DropdownToggle nav caret>
@@ -55,7 +55,7 @@ const Example= (props) => {
                 <DropdownItem href="/portfolio">
                   Portfolio <FontAwesomeIcon icon={faFolderOpen} />  
                 </DropdownItem>
-                <DropdownItem>
+                <DropdownItem href="/contact">
                  Contact Me <FontAwesomeIcon icon={faEnvelopeOpen}/>
                 </DropdownItem>
                 <DropdownItem href="https://github.com/garizpe9">

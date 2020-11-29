@@ -1,5 +1,5 @@
 import React from "react";
-import Jumbotron from "../component/Jumbotron"
+import { Jumbotron, } from 'reactstrap';
 import Container from '@material-ui/core/Container';
 
 
