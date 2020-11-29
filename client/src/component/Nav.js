@@ -43,7 +43,7 @@ const Example= (props) => {
             </NavItem>
             <UncontrolledDropdown nav inNavbar>
               <DropdownToggle nav caret>
-                Options
+                
               </DropdownToggle>
               <DropdownMenu right>
                 <DropdownItem href="/">
