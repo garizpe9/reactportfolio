@@ -2,11 +2,8 @@ import React, { useState } from 'react';
 import {
   Collapse,
   Navbar,
-  NavbarToggler,
   NavbarBrand,
   Nav,
-  NavItem,
-  NavLink,
   UncontrolledDropdown,
   DropdownToggle,
   DropdownMenu,
@@ -17,33 +14,22 @@ import {faLinkedin, faGithub} from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faFilePdf,faFolderOpen,faEnvelopeOpen} from '@fortawesome/free-solid-svg-icons'
 import Pdf from "./assets/Velia Giovanna Arizpe 2020.pdf"
-const Example= (props) => {
-  const [isOpen, setIsOpen] = useState(false);
 
-  const toggle = () => setIsOpen(!isOpen);
+const Example= (props) => {
+  const [isOpen, setIsOpen] = useState(true);
+
 
   return (
     <div>
       <Navbar color="light" light expand="md">
         <NavbarBrand href="/">Giovanna Arizpe</NavbarBrand>
-        <NavbarToggler onClick={toggle} />
+        
         <Collapse isOpen={isOpen} navbar>
           <Nav className="mr-auto" navbar>
-            <NavItem>
-              <NavLink href="/portfolio">Portfolio</NavLink>
-            </NavItem>
-            <NavItem>
-              <NavLink href="https://www.linkedin.com/in/giovanna-arizpe-msa-64ab2314" ><FontAwesomeIcon icon={faLinkedin}  /></NavLink>
-            </NavItem>
-            <NavItem>
-              <NavLink href="https://github.com/garizpe9" ><FontAwesomeIcon icon={faGithub}  /></NavLink>
-            </NavItem>
-            <NavItem>
-              <NavLink href="/contact" ><FontAwesomeIcon icon={faFilePdf}  /></NavLink>
-            </NavItem>
+            
             <UncontrolledDropdown nav inNavbar>
               <DropdownToggle nav caret>
-                
+                Links
               </DropdownToggle>
               <DropdownMenu right>
                 <DropdownItem href="/">
