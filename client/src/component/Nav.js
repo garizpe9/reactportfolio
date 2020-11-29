@@ -58,10 +58,10 @@ const Example= (props) => {
                 <DropdownItem href="/contact">
                  Contact Me <FontAwesomeIcon icon={faEnvelopeOpen}/>
                 </DropdownItem>
-                <DropdownItem href="https://github.com/garizpe9">
+                <DropdownItem href="https://github.com/garizpe9" target = "_blank">
                   GitHub <FontAwesomeIcon icon={faGithub} />
                 </DropdownItem>    
-                <DropdownItem href="https://www.linkedin.com/in/giovanna-arizpe-msa-64ab2314" >
+                <DropdownItem href="https://www.linkedin.com/in/giovanna-arizpe-msa-64ab2314" target = "_blank" >
                   LinkedIn <FontAwesomeIcon icon={faLinkedin}  />  
                 </DropdownItem>
               </DropdownMenu>

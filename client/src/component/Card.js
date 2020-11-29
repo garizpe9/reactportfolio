@@ -1,29 +1,25 @@
 import React from 'react';
-import { Card, Button, CardHeader, CardFooter, CardBody,
-  CardTitle, CardText } from 'reactstrap';
+import ProjectOne from "./projects/ProjectOne"
+import ProjectTwo from "./projects/ProjectTwo"
+import ProjectThree from "./projects/ProjectThree"
+import ProjectFour from "./projects/ProjectFour"
+import ProjectFive from "./projects/ProjectFive"
+import ProjectSix from "./projects/ProjectSix"
+import ProjectSeven from "./projects/ProjectSeven"
+import ProjectEight from "./projects/ProjectEight"
+
 
 const Cardcomp = (props) => {
   return (
     <div>
-      <Card>
-        <CardHeader>Header</CardHeader>
-        <CardBody>
-          <CardTitle tag="h5">Special Title Treatment</CardTitle>
-          <CardText>With supporting text below as a natural lead-in to additional content.</CardText>
-          <Button>Go somewhere</Button>
-        </CardBody>
-        <CardFooter>Footer</CardFooter>
-      </Card><br/>
-
-      <Card>
-        <CardHeader tag="h3">Featured</CardHeader>
-        <CardBody>
-          <CardTitle tag="h5">Special Title Treatment</CardTitle>
-          <CardText>With supporting text below as a natural lead-in to additional content.</CardText>
-          <Button>Go somewhere</Button>
-        </CardBody>
-        <CardFooter className="text-muted">Footer</CardFooter>
-      </Card>
+      <ProjectOne/> <br/>
+      <ProjectTwo/> <br/>
+      <ProjectThree/> <br/>
+      <ProjectFour/> <br/>
+      <ProjectFive/> <br/>
+      <ProjectSix/> <br/>
+      <ProjectSeven/> <br/>
+      <ProjectEight/> <br/>
     </div>
   );
 };

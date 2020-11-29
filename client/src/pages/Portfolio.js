@@ -13,7 +13,7 @@ function Portfolio() {
         <Container maxWidth="lg">
         <Jumbotron>
         <h1 className="display-3">Full Stack Portfolio</h1>
-        <p className="lead">See All Github Repositories <FontAwesomeIcon icon={faGithub} size="2x" /></p>
+        <p className="lead">See All Github Repositories <a href= "https://github.com/garizpe9"> <FontAwesomeIcon  icon={faGithub} size="2x" /></a></p>
         <hr className="my-2" />
             <Card/>
         </Jumbotron>
