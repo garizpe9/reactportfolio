@@ -13,8 +13,8 @@ const ProjectOne = (props) => {
         <CardBody>
           <CardTitle tag="h5"></CardTitle>
           <CardText>This is a random password generator. Upon clicking generate It will alert you upon entering what kind of specifications you would like to have and then creates a password.<br/> This uses HTML5, CSS, and vanilla Javascript</CardText>
-          <img className="picture" src= {require ("../assets/Passgen.png")} alt="card"/>
-          <Button size="sm" href="https://garizpe9.github.io/passgen/">Visit Project Page</Button>
+          <img className="profile" src= {require ("../assets/Passgen.png")} alt="card"/>
+          <Button size="sm" href="https://garizpe9.github.io/passgen/">Visit Page</Button>
         </CardBody>
         <CardFooter className="text-muted"><a href="https://github.com/garizpe9/passgen">View Repo <FontAwesomeIcon  icon={faGithub}/> </a></CardFooter>
       </Card>

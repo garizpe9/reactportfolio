@@ -1,19 +1,22 @@
 import React from 'react';
 import { Card, Button, CardHeader, CardFooter, CardBody,
   CardTitle, CardText } from 'reactstrap';
+  import {faGithub} from '@fortawesome/free-brands-svg-icons';
+  import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 const ProjectFour = (props) => {
   return (
     <div>
 
       <Card>
-        <CardHeader tag="h3">Featured</CardHeader>
+        <CardHeader tag="h3" >PizzabytheByte</CardHeader>
         <CardBody>
-          <CardTitle tag="h5">Special Title Treatment</CardTitle>
-          <CardText>With supporting text below as a natural lead-in to additional content.</CardText>
-          <Button size="sm">Go somewhere</Button>
+          <CardTitle tag="h5"></CardTitle>
+          <CardText>This app uses jQuery, Google Maps API, and Yelp API to pinpoint nearest mapped pizza places and creates a table of the restaurant names, ratings, and price points.<br/>This was a group project where my core responsibilities were finding a CORS API and using jQuery to create a table from the Yelp API, managing the timeline and responsibilities of overall project</CardText>
+          <img className="profile" src= {require ("../assets/pizza.JPG")} alt="card"/>
+          <Button size="sm" href="https://garizpe9.github.io/PizzaBytheByte/">Visit Page</Button>
         </CardBody>
-        <CardFooter className="text-muted">Footer</CardFooter>
+        <CardFooter className="text-muted"><a href="https://github.com/garizpe9/PizzabytheByte">View Repo <FontAwesomeIcon  icon={faGithub}/> </a></CardFooter>
       </Card>
     </div>
   );

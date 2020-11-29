@@ -27,7 +27,7 @@ function Contact() {
           <CardTitle tag="h5"> <a href="https://github.com/garizpe9" target = "_blank">View GitHub <FontAwesomeIcon icon={faGithub} /> </a> </CardTitle>
 
           
-          <CardTitle tag="h5"><Button href="mailto:VeliaArizpe@gmail.com"> Send an Email <FontAwesomeIcon icon={faEnvelopeOpen}/></Button></CardTitle>
+          <CardTitle tag="h5"><Button href="https://giovanna-arizpe.herokuapp.com/form" target="_blank"> Send an Email <FontAwesomeIcon icon={faEnvelopeOpen}/></Button></CardTitle>
           </Col>
           </Row>
         </CardBody>

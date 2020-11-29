@@ -16,6 +16,13 @@
   border-radius: 20px;
 }
 
+.profile {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  border-radius: 20px;
+}
 .footnote {
   position: fixed;
   left: 0;
