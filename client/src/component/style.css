@@ -7,3 +7,18 @@
   size: 100%;
   margin-bottom: 0rem;
 }
+
+.picture {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  border-radius: 20px;
+}
+
+.footnote {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}

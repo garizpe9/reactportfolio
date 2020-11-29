@@ -16,7 +16,7 @@ import {
 import {faLinkedin, faGithub} from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faFilePdf,faFolderOpen,faEnvelopeOpen} from '@fortawesome/free-solid-svg-icons'
-
+import Pdf from "./assets/Velia Giovanna Arizpe 2020.pdf"
 const Example= (props) => {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -49,7 +49,7 @@ const Example= (props) => {
                 <DropdownItem href="/">
                   About Me   
                 </DropdownItem>
-                <DropdownItem >
+                <DropdownItem href={Pdf}  target = "_blank">
                   Resume <FontAwesomeIcon icon={faFilePdf}/>    
                 </DropdownItem>
                 <DropdownItem href="/portfolio">

@@ -10,7 +10,7 @@ var fullyear= date.getFullYear()
 export const Footertest = () => {
     return(
 <div>
-    <CardFooter>
+    <CardFooter className="footnote">
     <FontAwesomeIcon icon={faCopyright} />  <b>{fullyear}</b>
     </CardFooter>
   </div>

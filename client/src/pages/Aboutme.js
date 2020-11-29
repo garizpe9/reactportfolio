@@ -8,7 +8,7 @@ function Home() {
   return (
     <div>
     
-    <Container maxWidth="sm">
+    <Container maxWidth="md">
     <Jumbotron>
     </Jumbotron>
     </Container>
