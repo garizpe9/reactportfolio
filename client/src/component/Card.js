@@ -7,7 +7,7 @@ import ProjectFour from "./projects/ProjectFour"
 import ProjectFive from "./projects/ProjectFive"
 import ProjectSix from "./projects/ProjectSix"
 import ProjectSeven from "./projects/ProjectSeven"
-import ProjectEight from "./projects/ProjectEight"
+
 
 
 const Cardcomp = (props) => {
@@ -20,7 +20,7 @@ const Cardcomp = (props) => {
       <ProjectFive/> <br/>
       <ProjectSix/> <br/>
       <ProjectSeven/> <br/>
-      <ProjectEight/> <br/>
+     
 
       <p className="lead">
 
