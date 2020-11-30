@@ -1,29 +1,34 @@
-# Create React Express App
+# Employee-Tracker
 
-## About This Boilerplate
+## Table of Contents
+* [Description](#description)
+* [Installation](#installation)
+* [Usage](#usage)
+* [License](#license)
+* [Contributors](#contributors)
+* [Questions](#questions)
 
-This setup allows for a Node/Express/React app which can be easily deployed to Heroku.
+## Description
+This is a react portfolio. It uses serveral npm packages including react.js, react-strap.js, express and @mater-ui-core.js. The idea of the portfolio is to go through the about me section, to the portfolio, to the contact section.
 
-The front-end React app will auto-reload as it's updated via webpack dev server, and the backend Express app will auto-reload independently with nodemon.
+<img src=https://github.com/garizpe9/employee-tracker/blob/master/Capture.JPG>
 
-## Starting the app locally
+## Installation 
+Clone or fork the repo to your own device.
 
-Start by installing front and backend dependencies. While in this directory, run the following command:
+## Usage
+Click on the link to view the site.
+https://giovanna-profile.herokuapp.com/
 
-```
-npm install
-```
 
-This should install node modules within the server and the client folder.
+## License
+Not Recognized
 
-After both installations complete, run the following command in your terminal:
+## Contributors
+Giovanna Arizpe
 
-```
-npm start
-```
+## Questions
+Contact me:
 
-Your app should now be running on <http://localhost:3000>. The Express server should intercept any AJAX requests from the client.
-
-## Deployment (Heroku)
-
-To deploy, simply add and commit your changes, and push to Heroku. As is, the NPM scripts should take care of the rest.
+Github: [https://github.com/garizpe9](https://github.com/garizpe9)
+Email: [veliaarizpe@gmail.com](veliaarizpe@gmail.com)
