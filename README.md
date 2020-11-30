@@ -11,7 +11,7 @@
 ## Description
 This is a react portfolio. It uses serveral npm packages including react.js, react-strap.js, express and @mater-ui-core.js. The idea of the portfolio is to go through the about me section, to the portfolio, to the contact section.
 
-<img src=https://github.com/garizpe9/employee-tracker/blob/master/Capture.JPG>
+<img src=https://github.com/garizpe9/reactportfolio/blob/master/client/src/component/assets/profile.JPG>
 
 ## Installation 
 Clone or fork the repo to your own device.
