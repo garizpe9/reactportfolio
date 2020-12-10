@@ -3,7 +3,7 @@ import { Card, CardHeader, CardFooter, CardBody, CardTitle, Row, Col, Button} fr
 import {faLinkedin, faGithub} from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faFilePdf,faFolderOpen,faEnvelopeOpen} from '@fortawesome/free-solid-svg-icons'
-import Pdf from "./assets/Velia Giovanna Arizpe 2020.docx"
+import Pdf from "./assets/Velia Giovanna Arizpe 2020.pdf"
 
 
 function Contact() {
@@ -22,7 +22,7 @@ function Contact() {
 
           <CardTitle tag="h5"> <a href="/portfolio" >View my Portfolio <FontAwesomeIcon icon={faFolderOpen} /> </a> </CardTitle>
 
-          <CardTitle tag="h5"> <a href={Pdf}  target = "_blank"> View My Resume <FontAwesomeIcon icon={faFilePdf}/> </a> </CardTitle>
+          <CardTitle tag="h5"> <a href={Pdf}  target = "_blank"> View My Resume <FontAwesomeIcon icon={faFilePdf} target = "_blank"/> </a> </CardTitle>
 
           <CardTitle tag="h5"> <a href="https://github.com/garizpe9" target = "_blank">View GitHub <FontAwesomeIcon icon={faGithub} /> </a> </CardTitle>
 
