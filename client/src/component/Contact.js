@@ -12,7 +12,7 @@ function Contact() {
       
       <h1 className="display-3">Contact Me</h1>
       <hr className="my-2" />
-         
+          <img className="picture" src= {require ("../component/assets/coffee.png")} alt="card"/> <br/>
           <Card>
         <CardHeader tag="h3"></CardHeader>
         <CardBody>
