@@ -10,6 +10,7 @@ const Example = (props) => {
         <h1 className="display-3">Giovanna Arizpe</h1>
         <p className="lead">About Me</p>
         <hr className="my-2" />
+        <img className="picture" src= {require ("../component/assets/IMG_1589.jpg")} alt="card"/> <br/>
         <p>I am a Full Stack developer with tax provision implementation knowledge educated at University of Florida, Loyola University of Chicago, and Northwestern University. My skills range from HTML, CSS, JavaScript, Node.js, MySQL, MongoDB, React to ERM systems and Tax Provision and compliance software with strengths in problem solving, creativity, and teamwork.<br/><br/>
 
         I am passionate about learning new technologies and applying skills to improve overall efficiencies of projects and sharing information with others. Not only do I enjoy showing clients how technology works, but ensure to take time after troubleshooting to demonstate to clients how to solve the issue themselves so they can better maintain their software environment. <br/><br/>
