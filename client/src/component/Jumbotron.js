@@ -16,7 +16,7 @@ const Example = (props) => {
         I am passionate about learning new technologies and applying skills to improve project efficiencies. I  also enjoy showing clients how technology works and I take time after troubleshooting to demonstate to clients how to solve the issue themselves so they can better maintain their software environment. <br/><br/>
         I strive to enhance internal and external processes and created company guidelines on how to update software along with company instructional guides for clients to use on tax software.  <br/><br/>
 
-         I am excited to develop responsive websites and am positioned to provide unique perspectives on how end users interact with websites and software platforms by leveraging my background in professional services in a Tax Provision software company.</p>
+         I am excited to develop responsive websites and am positioned to provide unique perspectives on how end users interact with websites and other software platforms by leveraging my tax provision software consulting background.</p>
         <p className="lead">
           <Button color="primary" href="/portfolio" size="lg">Learn More</Button>
         </p>
