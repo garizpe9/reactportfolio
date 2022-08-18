@@ -18,16 +18,21 @@ function Contact() {
         <CardBody>
         <Row>
         <Col sm="12" md={{ size: 6, offset: 3 }}>   
-          <CardTitle tag="h5"> <a href="https://www.linkedin.com/in/giovanna-arizpe-msa-64ab2314" target = "_blank"> <FontAwesomeIcon icon={faLinkedin}/> LinkedIn: Giovanna Arizpe, MSA  </a></CardTitle>
-<FontAwesomeIcon icon={faLinkedin}/>
-          <CardTitle tag="h5"> <a href="/portfolio" ><FontAwesomeIcon icon={faFolderOpen} />View my Portfolio  </a> </CardTitle>
+          <CardTitle tag="h5"> <a href="https://www.linkedin.com/in/giovanna-arizpe-msa-64ab2314" target = "_blank">
+              <FontAwesomeIcon icon={faLinkedin}/> LinkedIn: Giovanna Arizpe, MSA  </a></CardTitle>
 
-          <CardTitle tag="h5"> <a href={Pdf}  target = "_blank">  <FontAwesomeIcon icon={faFilePdf} target = "_blank"/> View My Resume </a> </CardTitle>
+          <CardTitle tag="h5"> <a href="/portfolio" >
+              <FontAwesomeIcon icon={faFolderOpen} />View my Portfolio  </a> </CardTitle>
 
-          <CardTitle tag="h5"> <a href="https://github.com/garizpe9" target = "_blank">  <FontAwesomeIcon icon={faGithub} /> View GitHub </a> </CardTitle>
+          <CardTitle tag="h5"> <a href={Pdf}  target = "_blank">
+              <FontAwesomeIcon icon={faFilePdf} target = "_blank"/> View My Resume </a> </CardTitle>
+
+          <CardTitle tag="h5"> <a href="https://github.com/garizpe9" target = "_blank">  
+              <FontAwesomeIcon icon={faGithub} /> View GitHub </a> </CardTitle>
 
           
-          <CardTitle tag="h5"><Button href="https://giovanna-arizpe.herokuapp.com/form" target="_blank">  <FontAwesomeIcon icon={faEnvelopeOpen}/> Send an Email</Button></CardTitle>
+          <CardTitle tag="h5"><Button href="https://giovanna-arizpe.herokuapp.com/form" target="_blank">
+              <FontAwesomeIcon icon={faEnvelopeOpen}/> Send an Email</Button></CardTitle>
           </Col>
           </Row>
         </CardBody>
