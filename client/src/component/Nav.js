@@ -35,19 +35,19 @@ const Example= (props) => {
                   About Me   
                 </DropdownItem>
                 <DropdownItem href={Pdf}  target = "_blank">
-                  Resume <FontAwesomeIcon icon={faFilePdf}/>    
+                  <FontAwesomeIcon icon={faFilePdf}/> Resume     
                 </DropdownItem>
                 <DropdownItem href="/portfolio">
-                  Portfolio <FontAwesomeIcon icon={faFolderOpen} />  
+                   <FontAwesomeIcon icon={faFolderOpen} /> Portfolio  
                 </DropdownItem>
                 <DropdownItem href="/contact">
-                 Contact Me <FontAwesomeIcon icon={faEnvelopeOpen}/>
+                  <FontAwesomeIcon icon={faEnvelopeOpen}/> Contact Me
                 </DropdownItem>
                 <DropdownItem href="https://github.com/garizpe9" target = "_blank">
-                  GitHub <FontAwesomeIcon icon={faGithub} />
+                 <FontAwesomeIcon icon={faGithub} /> GitHub 
                 </DropdownItem>    
                 <DropdownItem href="https://www.linkedin.com/in/giovanna-arizpe-msa-64ab2314" target = "_blank" >
-                  LinkedIn <FontAwesomeIcon icon={faLinkedin}  />  
+                 <FontAwesomeIcon icon={faLinkedin}  /> LinkedIn   
                 </DropdownItem>
               </DropdownMenu>
             </UncontrolledDropdown>
