@@ -13,7 +13,7 @@ import {
 import {faLinkedin, faGithub} from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faFilePdf,faFolderOpen,faEnvelopeOpen} from '@fortawesome/free-solid-svg-icons'
-import Pdf from "./assets/Giovanna Arizpe 2020.pdf"
+import Pdf from "./assets/Giovanna Arizpe 2022.pdf"
 const Example= (props) => {
   const [isOpen, setIsOpen] = useState(true);
 
