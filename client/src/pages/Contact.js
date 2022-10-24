@@ -12,7 +12,6 @@ function Home() {
     <Container maxWidth="md">
     <Jumbotron>
       <Contact/>
-       
     </Jumbotron>
     </Container>
     </div>
