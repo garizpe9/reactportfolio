@@ -1,5 +1,5 @@
 import React from 'react';
-import { Card, Button, CardHeader, CardFooter, CardBody,
+import { Card, CardHeader, CardFooter, CardBody,
   CardTitle, CardText } from 'reactstrap';
   import {faGithub} from '@fortawesome/free-brands-svg-icons';
   import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'

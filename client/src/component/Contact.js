@@ -18,20 +18,20 @@ function Contact() {
         <CardBody>
         <Row>
         <Col sm="12" md={{ size: 6, offset: 3 }}>   
-          <CardTitle tag="h5"> <a href="https://www.linkedin.com/in/giovannaarizpe" target = "_blank">
+          <CardTitle tag="h5"> <a href="https://www.linkedin.com/in/giovannaarizpe"  target = "_blank" rel='noopener noreferrer'>
               <FontAwesomeIcon icon={faLinkedin}/> LinkedIn: Giovanna Arizpe </a></CardTitle>
 
           <CardTitle tag="h5"> <a href="/portfolio" >
               <FontAwesomeIcon icon={faFolderOpen} />View my Portfolio  </a> </CardTitle>
 
-          <CardTitle tag="h5"> <a href={Pdf}  target = "_blank">
-              <FontAwesomeIcon icon={faFilePdf} target = "_blank"/> View My Resume </a> </CardTitle>
+          <CardTitle tag="h5"> <a href={Pdf}  target = "_blank" rel='noopener noreferrer'>
+              <FontAwesomeIcon icon={faFilePdf} /> View My Resume </a> </CardTitle>
 
-          <CardTitle tag="h5"> <a href="https://github.com/garizpe9" target = "_blank">  
+          <CardTitle tag="h5"> <a href="https://github.com/garizpe9" target = "_blank" rel='noopener noreferrer'>  
               <FontAwesomeIcon icon={faGithub} /> View GitHub </a> </CardTitle>
 
           
-          <CardTitle tag="h5"><Button href="https://giovanna-arizpe.herokuapp.com/form" target="_blank">
+          <CardTitle tag="h5"><Button href="https://giovanna-arizpe.herokuapp.com/form" target="_blank" rel='noopener noreferrer'>
               <FontAwesomeIcon icon={faEnvelopeOpen}/> Send an Email</Button></CardTitle>
           </Col>
           </Row>
