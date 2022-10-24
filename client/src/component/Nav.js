@@ -40,9 +40,6 @@ const Example= (props) => {
                 <DropdownItem href="/portfolio">
                    <FontAwesomeIcon icon={faFolderOpen} /> Portfolio  
                 </DropdownItem>
-                <DropdownItem href="/contact">
-                  <FontAwesomeIcon icon={faEnvelopeOpen}/> Contact Me
-                </DropdownItem>
                 <DropdownItem href="https://github.com/garizpe9" target = "_blank">
                  <FontAwesomeIcon icon={faGithub} /> GitHub 
                 </DropdownItem>    
@@ -50,6 +47,9 @@ const Example= (props) => {
                  <FontAwesomeIcon icon={faLinkedin}  /> LinkedIn   
                 </DropdownItem>
               </DropdownMenu>
+              <DropdownItem href="/contact">
+                  <FontAwesomeIcon icon={faEnvelopeOpen}/> Contact Me
+                </DropdownItem>
             </UncontrolledDropdown>
           </Nav>
           <NavbarText></NavbarText>
