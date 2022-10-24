@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/static/css/main.08c89b36.chunk.css",
-    "main.js": "/static/js/main.fcd198b3.chunk.js",
-    "main.js.map": "/static/js/main.fcd198b3.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.992eac29.js",
-    "runtime-main.js.map": "/static/js/runtime-main.992eac29.js.map",
-    "static/css/2.4cedc1af.chunk.css": "/static/css/2.4cedc1af.chunk.css",
-    "static/js/2.60d8631c.chunk.js": "/static/js/2.60d8631c.chunk.js",
-    "static/js/2.60d8631c.chunk.js.map": "/static/js/2.60d8631c.chunk.js.map",
+    "main.js": "/static/js/main.6c036d83.chunk.js",
+    "main.js.map": "/static/js/main.6c036d83.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.8ff41ed0.js",
+    "runtime-main.js.map": "/static/js/runtime-main.8ff41ed0.js.map",
+    "static/css/2.1faaf530.chunk.css": "/static/css/2.1faaf530.chunk.css",
+    "static/js/2.37ede874.chunk.js": "/static/js/2.37ede874.chunk.js",
+    "static/js/2.37ede874.chunk.js.map": "/static/js/2.37ede874.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.9da85bfe81d634bb7548169de4637913.js": "/precache-manifest.9da85bfe81d634bb7548169de4637913.js",
+    "precache-manifest.7d992eebfa1392949134d1b41929dc3b.js": "/precache-manifest.7d992eebfa1392949134d1b41929dc3b.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/2.4cedc1af.chunk.css.map": "/static/css/2.4cedc1af.chunk.css.map",
+    "static/css/2.1faaf530.chunk.css.map": "/static/css/2.1faaf530.chunk.css.map",
     "static/css/main.08c89b36.chunk.css.map": "/static/css/main.08c89b36.chunk.css.map",
-    "static/js/2.60d8631c.chunk.js.LICENSE.txt": "/static/js/2.60d8631c.chunk.js.LICENSE.txt",
+    "static/js/2.37ede874.chunk.js.LICENSE.txt": "/static/js/2.37ede874.chunk.js.LICENSE.txt",
     "static/media/Giovanna Arizpe 2022.pdf": "/static/media/Giovanna Arizpe 2022.58bf603a.pdf",
     "static/media/IMG_1589.jpg": "/static/media/IMG_1589.69a3c3f7.jpg",
     "static/media/Passgen.png": "/static/media/Passgen.0d55b663.png",
@@ -28,10 +28,10 @@
     "static/media/weather.png": "/static/media/weather.c1fee378.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.992eac29.js",
-    "static/css/2.4cedc1af.chunk.css",
-    "static/js/2.60d8631c.chunk.js",
+    "static/js/runtime-main.8ff41ed0.js",
+    "static/css/2.1faaf530.chunk.css",
+    "static/js/2.37ede874.chunk.js",
     "static/css/main.08c89b36.chunk.css",
-    "static/js/main.fcd198b3.chunk.js"
+    "static/js/main.6c036d83.chunk.js"
   ]
 }
