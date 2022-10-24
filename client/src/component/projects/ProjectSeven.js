@@ -19,7 +19,7 @@ const ProjectSeven = (props) => {
 
 In addition to HTML5 and CSS3, this app uses the following node packages: react.js, axios.js, react-dom.js, gh-pgates.js, and reactstrap.js.</CardText>
     <img className="profile" src= {require ("../assets/directory.jpg")} alt="card"/>
-    <Button size="sm" href="https://garizpe9.github.io/employeedirectory/">Visit Page</Button>
+    
   </CardBody>
   <CardFooter className="text-muted"><a href="https://github.com/garizpe9/employeedirectory">View Repo <FontAwesomeIcon  icon={faGithub}/> </a></CardFooter>
 </Card>

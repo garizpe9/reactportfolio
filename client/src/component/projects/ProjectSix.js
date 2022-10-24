@@ -16,7 +16,7 @@ const ProjectSix = (props) => {
           The app includes a feature for people who want to suggest and submit new fish to be included in the aquarium selection. The app uses node packages express, handlebars, mysql, sequlize, and also includes an image library.<br/>
           <br/> This was a group project where my main role was full-stack functionality.  The tasks in my role included creating the mysql database with sequelize, connecting the database to the server, using sequelize to create queries for "GET" and "POST" with node express urls to recieve and post mysql information, creating a call back from api route to front-end javascript, creating the html form for the 'newfish' url, and creating the css background and button formatting.</CardText>
         <img className="profile" src= {require ("../assets/fish.png")}  alt="card"/>
-        <Button size="sm" href="https://aquarium4noobs.herokuapp.com/">Visit Page</Button>
+       
       </CardBody>
       <CardFooter className="text-muted"><a href="https://github.com/garizpe9/Aquarium4noobs">View Repo <FontAwesomeIcon  icon={faGithub}/> </a></CardFooter>
     </Card>

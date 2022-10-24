@@ -18,8 +18,8 @@ function Contact() {
         <CardBody>
         <Row>
         <Col sm="12" md={{ size: 6, offset: 3 }}>   
-          <CardTitle tag="h5"> <a href="https://www.linkedin.com/in/giovanna-arizpe-msa-64ab2314" target = "_blank">
-              <FontAwesomeIcon icon={faLinkedin}/> LinkedIn: Giovanna Arizpe, MSA  </a></CardTitle>
+          <CardTitle tag="h5"> <a href="https://www.linkedin.com/in/giovannaarizpe" target = "_blank">
+              <FontAwesomeIcon icon={faLinkedin}/> LinkedIn: Giovanna Arizpe </a></CardTitle>
 
           <CardTitle tag="h5"> <a href="/portfolio" >
               <FontAwesomeIcon icon={faFolderOpen} />View my Portfolio  </a> </CardTitle>
