@@ -9,6 +9,7 @@ import Contact from "../component/Contact"
 function Home() {
   return (
     <div>
+      
     <Container maxWidth="md">
     <Jumbotron>
       <Contact/>

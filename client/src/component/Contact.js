@@ -1,8 +1,8 @@
 import React from 'react';
-import { Card, CardHeader, CardFooter, CardBody, CardTitle, Row, Col, Button} from 'reactstrap';
+import { Card, CardHeader, CardFooter, CardBody, CardTitle, Row, Col, } from 'reactstrap';
 import {faLinkedin, faGithub} from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faFilePdf,faFolderOpen,faEnvelopeOpen} from '@fortawesome/free-solid-svg-icons'
+import { faFilePdf,faFolderOpen,} from '@fortawesome/free-solid-svg-icons'
 import Pdf from "./assets/Giovanna Arizpe 2022.pdf"
 
 
