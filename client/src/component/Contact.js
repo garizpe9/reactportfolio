@@ -31,8 +31,7 @@ function Contact() {
               <FontAwesomeIcon icon={faGithub} /> View GitHub </a> </CardTitle>
 
           
-          <CardTitle tag="h5"><Button href="https://giovanna-arizpe.herokuapp.com/form" target="_blank" rel='noopener noreferrer'>
-              <FontAwesomeIcon icon={faEnvelopeOpen}/> Send an Email</Button></CardTitle>
+
           </Col>
           </Row>
         </CardBody>
@@ -44,3 +43,4 @@ function Contact() {
   
   export default Contact;
   
+//          <CardTitle tag="h5"><Button href="https://giovanna-arizpe.herokuapp.com/form" target="_blank" rel='noopener noreferrer'> <FontAwesomeIcon icon={faEnvelopeOpen}/> Send an Email</Button></CardTitle>

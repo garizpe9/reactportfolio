@@ -12,11 +12,10 @@ import {
 } from 'reactstrap';
 import {faLinkedin, faGithub} from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faFilePdf,faFolderOpen,faEnvelopeOpen} from '@fortawesome/free-solid-svg-icons'
+import { faFilePdf,faFolderOpen} from '@fortawesome/free-solid-svg-icons'
 import Pdf from "./assets/Giovanna Arizpe 2022.pdf"
 const Example= (props) => {
   const [isOpen, setIsOpen] = useState(true);
-
 
   return (
     <div>
@@ -47,9 +46,7 @@ const Example= (props) => {
                  <FontAwesomeIcon icon={faLinkedin}  /> LinkedIn   
                 </DropdownItem>
               </DropdownMenu>
-              <DropdownItem href="/contact">
-                  <FontAwesomeIcon icon={faEnvelopeOpen}/> Contact Me
-                </DropdownItem>
+
             </UncontrolledDropdown>
           </Nav>
           <NavbarText></NavbarText>

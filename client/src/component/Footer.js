@@ -1,8 +1,9 @@
 import React from 'react'
-import {CardFooter  } from 'reactstrap';
-import { faCopyright} from '@fortawesome/free-solid-svg-icons'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import {faReact} from '@fortawesome/free-brands-svg-icons';
+import {CardFooter} from 'reactstrap';
+import {faCopyright} from '@fortawesome/free-solid-svg-icons'
+import {FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import {Button} from 'reactstrap';
+import { faEnvelopeOpen } from '@fortawesome/free-solid-svg-icons';
 
 var date = new Date();
 var fullyear= date.getFullYear()
@@ -11,11 +12,15 @@ var fullyear= date.getFullYear()
 export const Footertest = () => {
     return(
 <div>
+
     <CardFooter className="footnote">
-    <FontAwesomeIcon icon={faCopyright} />  <b>{fullyear}   </b>
-    Powered By React <FontAwesomeIcon icon={faReact} /> 
-    </CardFooter>
+    <FontAwesomeIcon icon={faCopyright} />  <b>{fullyear}    </b>
+    <Button className="center" href="/contact">
+    <FontAwesomeIcon icon={faEnvelopeOpen }/> 
+       Contact Me </Button>
+       </CardFooter>
   </div>
+  
     );
 };
 
