@@ -14,10 +14,9 @@ export const Footertest = () => {
 <div>
 
     <CardFooter className="footnote">
-    <FontAwesomeIcon icon={faCopyright} />  <b>{fullyear}    </b>
     <Button className="center" href="/contact">
-    <FontAwesomeIcon icon={faEnvelopeOpen }/> 
-       Contact Me </Button>
+    <FontAwesomeIcon  icon={faEnvelopeOpen }/> 
+       Contact Me </Button> <br/>
        </CardFooter>
   </div>
   

@@ -10,10 +10,10 @@ const Example = (props) => {
         <h1 className="display-3">Giovanna Arizpe</h1>
         <p className="lead">About Me</p>
         <hr className="my-2" />
-        <img className="picture" src= {require ("../component/assets/IMG_1589.jpg")} alt="card"/> <br/>
-        <p> I help people solve problems through technology. <br/><br/>
-        I provide a unique perspective on product management, data wrangling, and platform implementation, by leveraging my tax provision software consulting background, my full stack web development experience, and my political science education.<br/><br/>
-        I work cross-functionally to understand technical, business, and user experience needs by examining product functionality with product designers, stakeholders, and users. I collaborate with stakeholders and users to ensure platform build or enhancement is completed by a target date. I create agile/waterfall work plans for design, task, build/minimum viable project, and user acceptance testing. I follow-up with stakeholders and users to ensure product success, receive product feedback, inform stakeholders and users of newer features available, and inform product designers of stakeholder and user feedback. 
+        <img className="picture" src= {require ("../component/assets/IMG_6964.jpg")} alt="card"/> <br/>
+        <p>  I am attending Evans School of Public Policy and Governance as an Evans School Fellow in the Master of Public Administration program to enhance my leadership skills in the public sector.  <br/><br/>
+        Having mastered product management, data wrangling, and financial technology platform implementation by leveraging my consulting, full stack web development and my political science background, my unique skillset provides a unique persepctive which encompasses on technical details and considers how people are affected.<br/><br/>
+        Raised in Florida, and recent Seattlite after 10 years in Chicago, I like exploring the Pacific Northwest hiking trails and try to catch a Mariners game when I can.
        </p>
         <p className="lead">
           <Button color="primary" href="/portfolio" size="lg">Learn More</Button>

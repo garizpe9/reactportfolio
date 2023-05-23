@@ -22,7 +22,7 @@ const ProjectSeven = (props) => {
     <img className="profile" src= {require ("../assets/TOT1.jpg")} alt="card"/>
     <img className="profile" src= {require ("../assets/TOT2.jpg")} alt="card"/>
     <img className="profile" src= {require ("../assets/TOT3.jpg")} alt="card"/>
-    <Button size="sm" href="https://this-face-space.herokuapp.com/">Visit Page</Button>
+    
   </CardBody>
   <CardFooter className="text-muted"><a href="https://github.com/garizpe9/facespace">View Repo <FontAwesomeIcon  icon={faGithub}/> </a></CardFooter>
 </Card>
