@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/stat``ic``/css/main.7853b926.css",
-    "main.js": "/static/js/main.0f4e8fac.js",
+    "main.css": "/static/css/main.7064d50d.css",
+    "main.js": "/static/js/main.b5649bfd.js",
     "static/media/fish.png": "/static/media/fish.6bbb406a92d850547250.png",
     "static/media/TOT1.jpg": "/static/media/TOT1.960ba0758742342191ec.jpg",
-    "static/media/IMG_1589.jpg": "/static/media/IMG_1589.cccd6415c7170161c112.jpg",
     "static/media/TOT2.jpg": "/static/media/TOT2.5101e3569a275976a422.jpg",
     "static/media/coffee.png": "/static/media/coffee.76cfb5648d8788d08fb6.png",
-    "static/media/Giovanna Arizpe 2022.pdf": "/static/media/Giovanna Arizpe 2022.5034fb6fa73b96c90ba9.pdf",
+    "static/media/5.22.2023 Resume.pdf": "/static/media/5.22.2023 Resume.81f76d542633fd737412.pdf",
     "static/media/pizza.JPG": "/static/media/pizza.1bd24e3440d9e24667f2.JPG",
+    "static/media/IMG_6964.jpg": "/static/media/IMG_6964.80d0c20ae3ac220db304.jpg",
     "static/media/TOT3.jpg": "/static/media/TOT3.5f63171236101dec1ad9.jpg",
     "static/media/directory.jpg": "/static/media/directory.75927a7ef1f4e4dd965e.jpg",
     "static/media/weather.png": "/static/media/weather.2904de98097fafb00383.png",
     "static/media/Passgen.png": "/static/media/Passgen.aa25cbf89939def02f6b.png",
     "static/media/code.png": "/static/media/code.9b5421604765d4ca77a5.png",
     "index.html": "/index.html",
-    "main.7853b926.css.map": "/static/css/main.7853b926.css.map",
-    "main.0f4e8fac.js.map": "/static/js/main.0f4e8fac.js.map"
+    "main.7064d50d.css.map": "/static/css/main.7064d50d.css.map",
+    "main.b5649bfd.js.map": "/static/js/main.b5649bfd.js.map"
   },
   "entrypoints": [
-    "static/css/main.7853b926.css",
-    "static/js/main.0f4e8fac.js"
+    "static/css/main.7064d50d.css",
+    "static/js/main.b5649bfd.js"
   ]
 }
