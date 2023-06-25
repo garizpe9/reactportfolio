@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState } from "react";
 import {
   Collapse,
   Navbar,
@@ -8,54 +8,22 @@ import {
   DropdownToggle,
   DropdownMenu,
   DropdownItem,
-  NavbarText
-} from 'reactstrap';
-import {faLinkedin, faGithub} from '@fortawesome/free-brands-svg-icons';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faFilePdf,faFolderOpen} from '@fortawesome/free-solid-svg-icons'
-import Pdf from "./assets/5.22.2023 Resume.pdf"
-const Example= (props) => {
+  Button,
+} from "reactstrap";
+
+const Example = (props) => {
   const [isOpen, setIsOpen] = useState(true);
 
   return (
     <div>
       <Navbar color="light" light expand="md">
         <NavbarBrand href="/">Giovanna Arizpe</NavbarBrand>
-        
-        <Collapse isOpen={isOpen} navbar>
-          <Nav className="mr-auto" navbar>
-            
-            <UncontrolledDropdown nav inNavbar>
-              <DropdownToggle nav caret>
-                Links
-              </DropdownToggle>
-              <DropdownMenu right>
-                <DropdownItem href="/">
-                  About Me   
-                </DropdownItem>
-                <DropdownItem href={Pdf}  target = "_blank">
-                  <FontAwesomeIcon icon={faFilePdf}/> Resume     
-                </DropdownItem>
-                <DropdownItem href="/portfolio">
-                   <FontAwesomeIcon icon={faFolderOpen} /> Portfolio  
-                </DropdownItem>
-                <DropdownItem href="https://github.com/garizpe9" target = "_blank">
-                 <FontAwesomeIcon icon={faGithub} /> GitHub 
-                </DropdownItem>    
-                <DropdownItem href="https://www.linkedin.com/in/giovanna-arizpe-msa-64ab2314" target = "_blank" >
-                 <FontAwesomeIcon icon={faLinkedin}  /> LinkedIn   
-                </DropdownItem>
-              </DropdownMenu>
-
-            </UncontrolledDropdown>
-          </Nav>
-          <NavbarText></NavbarText>
-        </Collapse>
-        
+        <NavbarBrand href="/garden">
+          <Button>Garden Project</Button>
+        </NavbarBrand>
       </Navbar>
     </div>
   );
-}
-
+};
 
 export default Example;

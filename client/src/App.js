@@ -1,11 +1,11 @@
-import Footer from "./component/Footer"
+import Footer from "./component/Footer";
 import React from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Aboutme from "./pages/Aboutme";
+import Garden from "./pages/Garden";
 import Portfolio from "./pages/Portfolio";
 import Nav from "./component/Nav";
-import Contact from "./pages/Contact"; 
-
+import Contact from "./pages/Contact";
 
 function App() {
   return (
@@ -21,6 +21,9 @@ function App() {
           </Route>
           <Route exact path="/contact">
             <Contact />
+          </Route>
+          <Route exact path="/garden">
+            <Garden />
           </Route>
         </Switch>
         <Footer />
