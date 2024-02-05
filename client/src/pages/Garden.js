@@ -1,7 +1,7 @@
 import React from "react";
 import { Jumbotron } from "reactstrap";
 import Container from "@material-ui/core/Container";
-import Garden from "../component/Garden";
+import Garden from "../component/garden/home.js";
 
 function Home() {
   return (

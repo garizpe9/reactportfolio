@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+
 import {
   Collapse,
   Navbar,
@@ -18,12 +19,12 @@ const Example = (props) => {
     <div>
       <Navbar color="light" light expand="md">
         <NavbarBrand href="/">Giovanna Arizpe</NavbarBrand>
-        <NavbarBrand href="/garden">
-          <Button>Garden Project</Button>
-        </NavbarBrand>
       </Navbar>
     </div>
   );
 };
 
 export default Example;
+//<NavbarBrand href="/garden">
+//<Button>Garden Project</Button>
+//</NavbarBrand>

@@ -18,7 +18,7 @@ export default function App() {
 
   return (
     <ButtonDropdown isOpen={dropdownOpen} toggle={toggle}>
-      <DropdownToggle caret>Links</DropdownToggle>
+      <DropdownToggle caret>About Me</DropdownToggle>
       <DropdownMenu>
         <DropdownItem href="/">About Me</DropdownItem>
         <DropdownItem href={Pdf} target="_blank">
