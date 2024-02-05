@@ -12,6 +12,7 @@ if (process.env.NODE_ENV === "production") {
 }
 
 // Define API routes here
+////require("./routes/plant")(app);
 
 // Send every other request to the React app
 // Define any API routes before this runs
@@ -19,6 +20,13 @@ app.get("*", (req, res) => {
   res.sendFile(path.join(__dirname, "./client/build/index.html"));
 });
 
+// Syncing our database and logging a message to the user upon success
+//db.sequelize.sync().then(() => {
 app.listen(PORT, () => {
-  console.log(`🌎 ==> API server now on port ${PORT}!`);
+  console.log(
+    "==> 🌎  Listening on port %s. Visit http://localhost:%s/ in your browser.",
+    PORT,
+    PORT
+  );
 });
+//});
