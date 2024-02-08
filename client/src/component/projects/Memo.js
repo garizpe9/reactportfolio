@@ -45,7 +45,7 @@ const Memo = (props) => {
               </a>{" "}
               <a href={PFF6} target="_blank" rel="noopener noreferrer">
                 {" "}
-                Sexual Harracement and Racism are Endangering FDIC's Mission
+                Sexual Harrassment and Racism are Endangering FDIC's Mission
                 <br /> <br />{" "}
               </a>{" "}
               <a href={PFF2} target="_blank" rel="noopener noreferrer">
