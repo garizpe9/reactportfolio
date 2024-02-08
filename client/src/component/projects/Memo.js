@@ -56,7 +56,7 @@ const Memo = (props) => {
             </CardText>
           </CardBody>
           <CardFooter className="text-muted">
-            *Names in group assignments redacted for privacy
+            *Group assignment; names redacted for privacy
           </CardFooter>
         </Card>
       </div>
