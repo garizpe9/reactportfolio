@@ -9,7 +9,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFilePdf, faFolderOpen } from "@fortawesome/free-solid-svg-icons";
-import Pdf from "./assets/5.22.2023 Resume.pdf";
+import Pdf from "./assets/Giovanna Arizpe Resume.pdf";
 
 export default function App() {
   const [dropdownOpen, setOpen] = React.useState(false);
