@@ -28,36 +28,38 @@ const Memo = (props) => {
             <CardText>
               {" "}
               <a href={PFF4} target="_blank" rel="noopener noreferrer">
-                <FontAwesomeIcon icon={faScroll} />
+                {" "}
+                <FontAwesomeIcon icon={faScroll} /> <a />
                 Providence Ten-Point ratios depict an illiquid, unprofitable,
                 and insolvent government; broader analysis illustrates a
                 resilient policy-focused government amid pandemic anomalies
               </a>{" "}
-              <br /> <br />
+              <br /> <br />{" "}
               <a href={PFF} target="_blank" rel="noopener noreferrer">
-                <FontAwesomeIcon icon={faScroll} />
-                Duwamish River Cleanup Public Engagement Strategy*{" "}
+                {" "}
+                <FontAwesomeIcon icon={faScroll} /> <a />
+                Duwamish River Cleanup Public Engagement Strategy*
               </a>{" "}
-              <br /> <br />
+              <br /> <br />{" "}
               <a href={PFF5} target="_blank" rel="noopener noreferrer">
-                <FontAwesomeIcon icon={faScroll} />
+                <FontAwesomeIcon icon={faScroll} /> <a />
                 Securing Capital for LSC Partners and LSC interests*
                 <br /> <br />{" "}
               </a>{" "}
               <a href={PFF3} target="_blank" rel="noopener noreferrer">
-                <FontAwesomeIcon icon={faScroll} />
+                <FontAwesomeIcon icon={faScroll} /> <a />
                 Increasing Cascadia Hearing School Revenue Recommendations
                 <br /> <br />{" "}
               </a>{" "}
               <a href={PFF6} target="_blank" rel="noopener noreferrer">
                 {" "}
-                <FontAwesomeIcon icon={faScroll} />
+                <FontAwesomeIcon icon={faScroll} /> <a />
                 Sexual Harrassment and Racism are Endangering FDIC's Mission
                 <br /> <br />{" "}
               </a>{" "}
               <a href={PFF2} target="_blank" rel="noopener noreferrer">
                 {" "}
-                <FontAwesomeIcon icon={faScroll} />
+                <FontAwesomeIcon icon={faScroll} /> <a />
                 Family Support Initiatve Organizational Management
                 Recommendations*{" "}
               </a>{" "}
@@ -65,7 +67,7 @@ const Memo = (props) => {
           </CardBody>
           <CardFooter className="text-muted">
             <FontAwesomeIcon icon={faAsterisk} />
-            Group assignment; names redacted for privacy
+            <a /> Group assignment; names redacted for privacy
           </CardFooter>
         </Card>
       </div>

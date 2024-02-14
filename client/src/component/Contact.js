@@ -11,7 +11,7 @@ import {
 import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFilePdf, faFolderOpen } from "@fortawesome/free-solid-svg-icons";
-import Pdf from "./assets/Giovanna Arizpe Resume.pdf";
+import Pdf from "./assets/Giovanna Arizpe CV.pdf";
 
 function Contact() {
   return (
