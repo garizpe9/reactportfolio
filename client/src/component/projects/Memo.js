@@ -13,6 +13,7 @@ import PFF3 from "../assets/memo/Cascadia.pdf";
 import PFF4 from "../assets/memo/Providence.pdf";
 import PFF5 from "../assets/memo/LSC.pdf";
 import PFF6 from "../assets/memo/FDIC.pdf";
+import PFF7 from "../assets/memo/SCA.pdf";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faScroll, faAsterisk } from "@fortawesome/free-solid-svg-icons";
 const Memo = (props) => {
@@ -62,6 +63,11 @@ const Memo = (props) => {
                 <FontAwesomeIcon icon={faScroll} /> <a />
                 Family Support Initiatve Organizational Management
                 Recommendations*{" "}
+              </a>{" "}
+              <a href={PFF7} target="_blank" rel="noopener noreferrer">
+                {" "}
+                <FontAwesomeIcon icon={faScroll} /> <a />
+                Updating Seattle Community Association Anti-Racism Initiative*{" "}
               </a>{" "}
             </CardText>
           </CardBody>

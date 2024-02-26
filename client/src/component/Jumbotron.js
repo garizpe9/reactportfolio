@@ -28,9 +28,9 @@ const Example = (props) => {
           details and considers how people are affected.
           <br />
           <br />
-          Raised in Florida, and recent Seattlite after 10 years in Chicago, I
-          like exploring the Pacific Northwest hiking trails and try to catch a
-          Mariners game when I can.
+          Raised in Florida and recent Seattlite after 10 years in Chicago, I
+          like exploring the Pacific Northwest hiking trails and enjoy watching
+          the Mariners.
         </p>
         <p className="lead">
           <Button color="primary" href="/portfolio" size="lg">
