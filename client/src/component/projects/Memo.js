@@ -62,7 +62,7 @@ const Memo = (props) => {
                 {" "}
                 <FontAwesomeIcon icon={faScroll} /> <a />
                 Family Support Initiatve Organizational Management
-                Recommendations*{" "}
+                Recommendations* <br /> <br />{" "}
               </a>{" "}
               <a href={PFF7} target="_blank" rel="noopener noreferrer">
                 {" "}
