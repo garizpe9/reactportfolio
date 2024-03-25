@@ -33,8 +33,12 @@ const Example = (props) => {
           the Mariners.
         </p>
         <p className="lead">
-          <Button color="primary" href="/portfolio" size="lg">
-            Learn More
+          <Button position="center" color="dark" href="/evans">
+            View UW Evans Policy Portfolio
+          </Button>
+          {"    "}
+          <Button color="dark" href="/portfolio">
+            View NU Fullstack Portfolio
           </Button>
         </p>
       </Jumbotron>

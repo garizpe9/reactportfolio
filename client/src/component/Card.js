@@ -22,8 +22,11 @@ const Cardcomp = (props) => {
       <ProjectTwo /> <br />
       <ProjectOne /> <br />
       <p className="lead">
-        <Button color="primary" href="/contact" size="lg">
-          <b> Contact Me</b>
+        <Button color="dark" href="/Evans" size="lg">
+          UW Evans Policy Memo Portfolio
+        </Button>{" "}
+        <Button color="dark" href="/contact" size="lg">
+          Contact Me
         </Button>
       </p>
     </div>

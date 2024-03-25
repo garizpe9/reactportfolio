@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Aboutme from "./pages/Aboutme";
 import Garden from "./pages/Garden";
 import Portfolio from "./pages/Portfolio";
+import Evans from "./pages/Evans";
 import Nav from "./component/Nav";
 import Contact from "./pages/Contact";
 
@@ -18,6 +19,9 @@ function App() {
           </Route>
           <Route exact path="/portfolio">
             <Portfolio />
+          </Route>
+          <Route exact path="/evans">
+            <Evans />
           </Route>
           <Route exact path="/contact">
             <Contact />
