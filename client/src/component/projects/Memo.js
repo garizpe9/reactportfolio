@@ -15,6 +15,8 @@ import PFF5 from "../assets/memo/LSC.pdf";
 import PFF6 from "../assets/memo/FDIC.pdf";
 import PFF7 from "../assets/memo/SCA.pdf";
 import PFF8 from "../assets/memo/SCOTUS.pdf";
+import PFF9 from "../assets/memo/Ranier.pdf";
+import PFF10 from "../assets/memo/CBO.pdf";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faScroll, faAsterisk } from "@fortawesome/free-solid-svg-icons";
 const Memo = (props) => {
@@ -76,6 +78,19 @@ const Memo = (props) => {
                 <FontAwesomeIcon icon={faScroll} /> <a />
                 U.S. Supreme Court Constitutionality Testing*{" "}
               </a>{" "}
+              <a href={PFF9} target="_blank" rel="noopener noreferrer">
+                {" "}
+                <br /> <br /> <FontAwesomeIcon icon={faScroll} /> <a />
+                Updating JRC Demographic Integration and Intra-partnership
+                Communication
+              </a>{" "}
+              <br /> <br />{" "}
+              <a href={PFF10} target="_blank" rel="noopener noreferrer">
+                {" "}
+                <FontAwesomeIcon icon={faScroll} /> <a />
+                Prioritize Mitigating Damage Over Highway Funding Solutions
+              </a>{" "}
+              <br /> <br />{" "}
             </CardText>
           </CardBody>
           <CardFooter className="text-muted">

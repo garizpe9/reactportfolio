@@ -11,7 +11,11 @@ function Evans() {
         <Jumbotron>
           <h1 className="display-3"> Policy Memo Portfolio</h1>
           <p className="lead">
-            <img src={require("../component/assets/evans.png")} alt="card" />{" "}
+            <img
+              src={require("../component/assets/evans.png")}
+              alt="card"
+              width="100%"
+            />{" "}
             <br />
             <br />
           </p>
