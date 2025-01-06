@@ -1,0 +1,52 @@
+$body-bg:  #8d7c72; 
+$body-color: #d4d2d5;
+$primary-color:#292929;
+$card-bg: #6c698d;
+$custom-colors: (
+);
+
+$theme-colors: (
+  "primary": $primary-color,
+);
+
+$theme-colors: map-merge($theme-colors, $custom-colors);
+
+
+.card-title-color{ 
+  color:white;
+  background-color:#bfafa6;}
+.card {
+    border-radius: 20px;
+  }
+  
+  .home {
+    size: 100%;
+    margin-bottom: 0rem;
+  }
+  
+  .picture {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border-radius: 20px;
+  }
+  
+  .profile {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    border-radius: 20px;
+  }
+  
+  .footnote {
+    position: fixed;
+    left: 100;
+    bottom: 0;
+    width: 100%;
+    height: 4%;
+
+  }
+// Import Bootstrap and its default variables
+@import '~bootstrap/scss/bootstrap.scss';

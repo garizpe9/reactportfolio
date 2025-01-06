@@ -1,20 +1,14 @@
 import React from "react";
-import { Jumbotron, } from 'reactstrap';
-import Container from '@material-ui/core/Container';
-import Contact from "../component/Contact"
 
-
-
+import Container from "@material-ui/core/Container";
+import Contact from "../component/Contact";
 
 function Home() {
   return (
     <div>
-      
-    <Container maxWidth="md">
-    <Jumbotron>
-      <Contact/>
-    </Jumbotron>
-    </Container>
+      <Container maxWidth="md">
+        <Contact />
+      </Container>
     </div>
   );
 }
