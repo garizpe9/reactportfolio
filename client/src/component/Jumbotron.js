@@ -1,25 +1,34 @@
 import { React } from "react";
-import { Container, Button, Card, CardTitle } from "reactstrap";
+import {
+  Container,
+  Card,
+  CardTitle,
+  CardHeader,
+  CardBody,
+  CardFooter,
+} from "reactstrap";
 
 const Example = (props) => {
   return (
     <div>
       <Container className="home">
         <h1 className="display-3">Giovanna Arizpe</h1>
-        <Card>
-          <CardTitle className="top">
-            <p className="lead">About Me</p>
-            <hr className="my-2" />
-          </CardTitle>
-          <img
-            className="picture"
-            src={require("../component/assets/Headshot.jpg")}
-            alt="card"
-          />{" "}
-          <br />
-          <p>
-            {" "}
-            <Container>
+        <hr className="my-2" />
+        <CardTitle>
+          <p className="display-4"></p>
+          <h1 className="my-2" />
+        </CardTitle>
+        <img
+          className="picture"
+          src={require("../component/assets/Headshot.jpg")}
+          alt="card"
+        />{" "}
+        <br />
+        <p>
+          {" "}
+          <Card>
+            <CardHeader />
+            <CardBody>
               I am attending Evans School of Public Policy and Governance as an
               Evans School Fellow in the Master of Public Administration program
               to enhance my leadership skills in the public sector. <br />
@@ -34,10 +43,11 @@ const Example = (props) => {
               Raised in Florida and recent Seattlite after 10 years in Chicago,
               I like exploring the Pacific Northwest hiking trails and enjoy
               watching the Mariners.
-            </Container>
-          </p>
-          <p className="lead"></p>
-        </Card>
+            </CardBody>
+            <CardFooter />
+          </Card>
+        </p>
+        <p className="lead"></p>
       </Container>
     </div>
   );

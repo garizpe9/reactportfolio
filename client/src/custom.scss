@@ -1,8 +1,9 @@
 $body-bg:  #8d7c72; 
 $body-color: #d4d2d5;
-$primary-color:#292929;
+$primary-color:white;
 $card-bg: #6c698d;
 $badge: black;
+
 $custom-colors: (
 );
 
@@ -18,6 +19,9 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
   background-color:#bfafa6;}
 .top {
     background-color:#605c61;
+  }
+  .cardtop{
+    background-color: #b6b3b8
   }
   
   .home {
@@ -49,5 +53,5 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
     height: 4%;
 
   }
-// Import Bootstrap and its default variables
+
 @import '~bootstrap/scss/bootstrap.scss';

@@ -1,6 +1,4 @@
 import React from "react";
-import { Button } from "reactstrap";
-import { Jumbotron } from "reactstrap";
 import Container from "@material-ui/core/Container";
 import Memo from "../component/projects/Memo";
 

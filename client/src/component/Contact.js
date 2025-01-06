@@ -20,7 +20,7 @@ import Pdf from "./assets/Giovanna Arizpe CV.pdf";
 function Contact() {
   return (
     <div>
-      <h1 className="display-3">Contact Me</h1>
+      <h1 className="display-3">Contact Information</h1>
       <hr className="my-2" />
       <img
         className="picture"
@@ -43,22 +43,6 @@ function Contact() {
                   <FontAwesomeIcon icon={faLinkedin} /> LinkedIn: Giovanna
                   Arizpe{" "}
                 </a>
-              </CardTitle>
-
-              <CardTitle tag="h5">
-                {" "}
-                <a href="/evans">
-                  <FontAwesomeIcon icon={faFileSignature} />
-                  View my Policy Memo Portfolio{" "}
-                </a>{" "}
-              </CardTitle>
-
-              <CardTitle tag="h5">
-                {" "}
-                <a href="/portfolio">
-                  <FontAwesomeIcon icon={faFolderOpen} />
-                  View my Website Portfolio{" "}
-                </a>{" "}
               </CardTitle>
 
               <CardTitle tag="h5">

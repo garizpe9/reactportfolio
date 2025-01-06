@@ -93,7 +93,7 @@ const Memo = (props) => {
               <br /> <br />{" "}
             </CardText>
           </CardBody>
-          <CardFooter className="text-muted">
+          <CardFooter>
             <FontAwesomeIcon icon={faAsterisk} />
             <a /> Group assignment; names redacted for privacy
           </CardFooter>
