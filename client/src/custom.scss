@@ -2,6 +2,7 @@ $body-bg:  #8d7c72;
 $body-color: #d4d2d5;
 $primary-color:#292929;
 $card-bg: #6c698d;
+$badge: black;
 $custom-colors: (
 );
 
@@ -15,8 +16,8 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 .card-title-color{ 
   color:white;
   background-color:#bfafa6;}
-.card {
-    border-radius: 20px;
+.top {
+    background-color:#605c61;
   }
   
   .home {

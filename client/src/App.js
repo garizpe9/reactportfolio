@@ -1,4 +1,3 @@
-import Footer from "./component/Footer";
 import React from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Aboutme from "./pages/Aboutme";
@@ -30,7 +29,6 @@ function App() {
             <Garden />
           </Route>
         </Switch>
-        <Footer />
       </div>
     </Router>
   );

@@ -21,10 +21,14 @@ export default function App() {
   const toggle = () => setOpen(!dropdownOpen);
 
   return (
-    <ButtonDropdown isOpen={dropdownOpen} toggle={toggle}>
+    <ButtonDropdown
+      className="card-title-color"
+      isOpen={dropdownOpen}
+      toggle={toggle}
+    >
       <DropdownToggle caret>Contact</DropdownToggle>
       <DropdownMenu>
-        <DropdownItem href="/contact">Contact Me</DropdownItem>
+        <DropdownItem href="/contact"></DropdownItem>
         <DropdownItem href={Pdf} target="_blank">
           <FontAwesomeIcon icon={faFilePdf} /> Resume
         </DropdownItem>

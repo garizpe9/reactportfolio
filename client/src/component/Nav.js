@@ -1,10 +1,10 @@
 import React, { useState } from "react";
-
+import Direction from "./NavDirection.js";
 import {
   Collapse,
   Navbar,
   NavbarBrand,
-  Nav,
+  Container,
   UncontrolledDropdown,
   DropdownToggle,
   DropdownMenu,
@@ -18,9 +18,12 @@ const Example = (props) => {
   return (
     <div>
       <Navbar className="card-title-color" expand="md">
-        <NavbarBrand className="$body-color" href="/">
-          Giovanna Arizpe
-        </NavbarBrand>
+        <Container>
+          <NavbarBrand href="/Evans"> Public Policy Portfolio</NavbarBrand>
+          <NavbarBrand href="/Portfolio">Fullstack Portfolio</NavbarBrand>
+          <NavbarBrand href="/">About</NavbarBrand>
+          <NavbarBrand href="/Contact">Contact</NavbarBrand>
+        </Container>
       </Navbar>
     </div>
   );
