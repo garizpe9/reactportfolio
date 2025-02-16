@@ -3,7 +3,8 @@ $body-color: #d4d2d5;
 $primary-color:white;
 $card-bg: #5f5d7c;
 $badge: black;
-$accordion-bg: #6c698d;;
+$accordion-bg: #6c698d;
+$accordion-border-color:white;
 
 $custom-colors: (
 );
@@ -56,6 +57,10 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
     width: 100%;
     height: 4%;
 
+  }
+  
+  a{
+    color:white;
   }
 
 @import '~bootstrap/scss/bootstrap.scss';
