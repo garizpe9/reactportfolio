@@ -6,13 +6,15 @@
   "proxy": "http://localhost:3001/",
   "dependencies": {
     "@material-ui/core": "^4.11.1",
+    "bootstrap": "^5.3.3",
     "mysql2": "^3.4.1",
     "node": "^20.2.0",
     "openssl": "^2.0.0",
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1",
+    "react": "^16.14.0",
+    "react-dom": "^16.14.0",
     "react-router-dom": "^5.2.0",
     "react-scripts": "^5.0.1",
+    "reactstrap": "^9.2.3",
     "sass": "^1.83.1",
     "sequelize": "^6.32.1"
   },

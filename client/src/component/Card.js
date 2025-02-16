@@ -1,5 +1,5 @@
-import React from "react";
-import { Button } from "reactstrap";
+import React, { useState } from "react";
+import { Container, UncontrolledAccordion } from "reactstrap";
 import ProjectOne from "./projects/ProjectOne";
 import ProjectTwo from "./projects/ProjectTwo";
 import ProjectThree from "./projects/ProjectThree";
@@ -9,21 +9,33 @@ import ProjectSix from "./projects/ProjectSix";
 import ProjectSeven from "./projects/ProjectSeven";
 import ProjectEight from "./projects/ProjectEight";
 
-const Cardcomp = (props) => {
+function Cardcomp(props) {
+  const [open, setOpen] = useState("(1)");
+  const toggle = (id) => {
+    if (open === id) {
+      setOpen();
+    } else {
+      setOpen(id);
+    }
+  };
+
   return (
     <div>
-      <ProjectEight />
-      <br />
-      <ProjectSeven /> <br />
-      <ProjectSix /> <br />
-      <ProjectFive /> <br />
-      <ProjectFour /> <br />
-      <ProjectThree /> <br />
-      <ProjectTwo /> <br />
-      <ProjectOne /> <br />
-      <p className="lead"></p>
+      <Container>
+        <UncontrolledAccordion flush defaultOpen={["2"]} toggle={toggle}>
+          <ProjectSeven />
+          <ProjectSix />
+          <ProjectFive />
+          <ProjectFour />
+          <ProjectThree />
+          <ProjectTwo />
+          <ProjectOne />
+          <ProjectEight />
+          <p className="lead"></p>
+        </UncontrolledAccordion>
+      </Container>
     </div>
   );
-};
+}
 
 export default Cardcomp;

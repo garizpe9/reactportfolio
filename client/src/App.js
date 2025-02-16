@@ -6,6 +6,7 @@ import Portfolio from "./pages/Portfolio";
 import Evans from "./pages/Evans";
 import Nav from "./component/Nav";
 import Contact from "./pages/Contact";
+import { Container } from "reactstrap";
 
 function App() {
   return (

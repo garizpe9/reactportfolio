@@ -18,8 +18,8 @@ function Portfolio() {
           </a>
         </p>
         <hr className="my-2" />
-        <Card />
-      </Container>
+      </Container>{" "}
+      <Card />
     </div>
   );
 }
