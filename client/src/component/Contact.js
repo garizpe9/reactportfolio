@@ -10,11 +10,7 @@ import {
 } from "reactstrap";
 import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faFilePdf,
-  faFolderOpen,
-  faFileSignature,
-} from "@fortawesome/free-solid-svg-icons";
+import { faFilePdf } from "@fortawesome/free-solid-svg-icons";
 import Pdf from "./assets/Giovanna Arizpe CV.pdf";
 
 function Contact() {
@@ -28,7 +24,7 @@ function Contact() {
         alt="card"
       />{" "}
       <br />
-      <Card>
+      <Card className="profile">
         <CardHeader tag="h3"></CardHeader>
         <CardBody>
           <Row>

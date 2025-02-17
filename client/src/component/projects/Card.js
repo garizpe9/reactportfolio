@@ -1,13 +1,13 @@
 import React, { useState } from "react";
 import { Container, UncontrolledAccordion } from "reactstrap";
-import ProjectOne from "./projects/ProjectOne";
-import ProjectTwo from "./projects/ProjectTwo";
-import ProjectThree from "./projects/ProjectThree";
-import ProjectFour from "./projects/ProjectFour";
-import ProjectFive from "./projects/ProjectFive";
-import ProjectSix from "./projects/ProjectSix";
-import ProjectSeven from "./projects/ProjectSeven";
-import ProjectEight from "./projects/ProjectEight";
+import ProjectOne from "./ProjectOne";
+import ProjectTwo from "./ProjectTwo";
+import ProjectThree from "./ProjectThree";
+import ProjectFour from "./ProjectFour";
+import ProjectFive from "./ProjectFive";
+import ProjectSix from "./ProjectSix";
+import ProjectSeven from "./ProjectSeven";
+import ProjectEight from "./ProjectEight";
 
 function Cardcomp(props) {
   const [open, setOpen] = useState("(1)");
@@ -22,7 +22,12 @@ function Cardcomp(props) {
   return (
     <div>
       <Container>
-        <UncontrolledAccordion flush defaultOpen={["2"]} toggle={toggle}>
+        <UncontrolledAccordion
+          flush
+          defaultOpen={["2"]}
+          toggle={toggle}
+          className="profile"
+        >
           <ProjectSeven />
           <ProjectSix />
           <ProjectFive />

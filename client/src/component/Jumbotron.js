@@ -22,11 +22,10 @@ const Example = (props) => {
           className="picture"
           src={require("../component/assets/Headshot.jpg")}
           alt="card"
-        />{" "}
-        <br />
+        />
+
         <p>
-          {" "}
-          <Card>
+          <Card className="profile">
             <CardHeader />
             <CardBody>
               I am attending Evans School of Public Policy and Governance as an

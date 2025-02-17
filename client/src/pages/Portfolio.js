@@ -1,5 +1,5 @@
 import React from "react";
-import Card from "../component/Card";
+import Card from "../component/projects/Card";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Container from "@material-ui/core/Container";

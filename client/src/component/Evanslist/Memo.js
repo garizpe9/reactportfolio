@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Container, UncontrolledAccordion } from "reactstrap";
-import Evanslist from "../projects/Evanslist";
+import AccordianItemComp from "./AccordianItemComponent";
 
 function Memo(props) {
   const [open, setOpen] = useState("(1)");
@@ -14,13 +14,16 @@ function Memo(props) {
 
   return (
     <div>
-      <div>
-        <Container>
-          <UncontrolledAccordion flush defaultOpen={["1"]} toggle={toggle}>
-            <Evanslist />
-          </UncontrolledAccordion>
-        </Container>
-      </div>
+      <Container>
+        <UncontrolledAccordion
+          flush
+          defaultOpen={["1"]}
+          toggle={toggle}
+          className="profile"
+        >
+          <AccordianItemComp></AccordianItemComp>
+        </UncontrolledAccordion>
+      </Container>
     </div>
   );
 }
