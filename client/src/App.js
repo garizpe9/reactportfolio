@@ -1,7 +1,7 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Aboutme from "./pages/Aboutme";
-import Garden from "./pages/Garden";
+import Data from "./pages/Data Science";
 import Portfolio from "./pages/Portfolio";
 import Evans from "./pages/Evans";
 import Nav from "./component/Nav";
@@ -22,11 +22,11 @@ function App() {
           <Route exact path="/evans">
             <Evans />
           </Route>
-          <Route exact path="/contact">
+          <Route exact path="/resume">
             <Contact />
           </Route>
-          <Route exact path="/garden">
-            <Garden />
+          <Route exact path="/datasci">
+            <Data />
           </Route>
         </Switch>
       </div>

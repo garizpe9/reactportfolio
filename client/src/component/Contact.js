@@ -16,7 +16,7 @@ import Pdf from "./assets/Giovanna Arizpe CV.pdf";
 function Contact() {
   return (
     <div>
-      <h1 className="display-3">Contact Information</h1>
+      <h1 className="display-3">Resume</h1>
       <hr className="my-2" />
       <img
         className="picture"

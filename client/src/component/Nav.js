@@ -7,11 +7,13 @@ const Example = (props) => {
   return (
     <div>
       <Navbar className="card-title-color" expand="md">
-        <NavbarBrand href="/Evans"> Stata Portfolio</NavbarBrand>
-        <NavbarBrand href="/Evans"> Public Policy Portfolio</NavbarBrand>
-        <NavbarBrand href="/Portfolio">Fullstack Portfolio</NavbarBrand>
         <NavbarBrand href="/">About</NavbarBrand>
-        <NavbarBrand href="/Contact">Contact</NavbarBrand>
+        <NavbarBrand href="/Evans"> Public Policy </NavbarBrand>
+        <NavbarBrand href="/datasci"> Data Science</NavbarBrand>
+
+        <NavbarBrand href="/Portfolio">Fullstack Web Dev</NavbarBrand>
+
+        <NavbarBrand href="/resume">Resume</NavbarBrand>
       </Navbar>
     </div>
   );

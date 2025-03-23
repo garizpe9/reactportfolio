@@ -1,18 +1,14 @@
 import React from "react";
-import { CardBody, CardHeader, Container } from "reactstrap";
+import { CardBody, CardHeader, CardFooter } from "reactstrap";
 import pdf from "../assets/memo/Negotiations.pdf";
-function Evanslist1() {
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faScroll } from "@fortawesome/free-solid-svg-icons";
+
+function Evanslist13() {
   return (
     <div>
       <div>
-        <CardHeader>
-          {" "}
-          <Container>
-            A proposal to utilize the legislative Blue-Ribbon Commission to
-            create a subcommittee in order to negotiate expanding Washington’s
-            pretrial services.{" "}
-          </Container>
-        </CardHeader>
+        <CardHeader></CardHeader>
         <CardBody>
           <a href={pdf} target="_blank" rel="noopener noreferrer">
             <img
@@ -22,8 +18,12 @@ function Evanslist1() {
             />
           </a>
         </CardBody>
+        <CardFooter>
+          <FontAwesomeIcon icon={faScroll} color="white" />
+          Read Document
+        </CardFooter>
       </div>
     </div>
   );
 }
-export default Evanslist1;
+export default Evanslist13;

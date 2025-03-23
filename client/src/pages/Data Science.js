@@ -1,16 +1,16 @@
 import React from "react";
 
 import Container from "@material-ui/core/Container";
-import Garden from "../component/garden/home.js";
+import DataSci from "../component/Data/home.js";
 
-function Home() {
+function Data() {
   return (
     <div>
-      <Container maxWidth="md">
-        <Garden />
+      <Container maxWidth="lg">
+        <DataSci />
       </Container>
     </div>
   );
 }
 
-export default Home;
+export default Data;
