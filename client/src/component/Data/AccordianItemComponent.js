@@ -38,7 +38,7 @@ function DataListComp(props) {
               <CardTitle tag="h5"></CardTitle>
               <CardText>
                 {" "}
-                This code uses stata to pull information from the 2019 U.S. Jail
+                This code uses Stata to pull information from the 2019 U.S. Jail
                 Census to then isolate Washington state and group by countey.
                 The code also includes equations to remove dupliate information
                 and group by jail/county.
@@ -69,9 +69,10 @@ function DataListComp(props) {
               <CardTitle tag="h5"></CardTitle>
               <CardText>
                 {" "}
-                This code uses stata analyze pretrial information received from
-                a government body. Information was renamed, redacted, and
-                adjusted to remove any identifying information.
+                This code uses Stata to analyze pretrial information received
+                from a government body. Information was renamed, redacted, and
+                adjusted to remove identifying information.Consequently, this
+                code should only be viewed as a structural outline.
               </CardText>{" "}
               <PTSCodeEditor />
             </CardBody>
